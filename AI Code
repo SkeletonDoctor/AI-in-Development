@@ -1,0 +1,26 @@
+//To test this code go to "repl.it" then type "Node" and copy this code, then follow the directions. 
+
+
+var quest = 'What color is your hair?';           //Type your question in the qoutation marks.
+
+console.log(quest);
+if(quest === 'Whats your name?' || quest === 'Whats your name' || quest === 'Whats your name.' || quest === 'What is your name?' || quest === 'What is your name' || quest === 'What is your name.') {
+  console.log('Well my name is Laura.');        //Answers this question: Whats your name?
+}
+if(quest === 'Whats your age?' || quest === 'Whats your age' || quest === 'Whats your age.' || quest === 'What is your age?' || quest === 'What is your age' || quest === 'What is your age.' || quest === 'How old are you?' || quest === 'How old are you' || quest === 'How old are you.') {
+  console.log('No one told me how old i am, so i dont know.');     //Answers this question: Whats your age?
+}
+if(quest === 'Whats your favorite color?' || quest === 'Whats your favorite color' || quest === 'Whats your favorite color.' || quest === 'What is your favorite color?' || quest === 'What is your favorite color' || quest === 'What is your favorite color.' || quest === 'Whats your fav color?' || quest === 'Whats your fav color' || quest === 'Whats your fav color.' || quest === 'What is your fav color?' || quest === 'What is your fav color' || quest === 'What is your fav color.') {
+  console.log('Well i like purple, but also sometimes i like pink.'); //Answers this question: Whats your favorite
+}                                                                                                        //color?
+if(quest === 'What hair color do you have' || quest === 'What hair color do you have?' || quest === 'What hair color do you have.' || quest === 'What color is your hair?' || quest === 'What color is your hair' || quest === 'What color is your hair.' || quest === 'What is the color of your hair?' || quest === 'What is the color of your hair' || quest === 'What is the color of your hair.' || quest === 'Whats the color of your hair?' || quest === 'Whats the color of your hair' || quest === 'Whats the color of your hair.' || quest === 'What color hair do you have?' || quest === 'What color hair do you have' || quest === 'What color hair do you have.') {
+  console.log('Well im not a human to have hair, but i wish i was.'); //Answers this question: What color is your
+}                                                                                                          //hair?
+
+
+
+
+
+else {
+  console.log('Im in development so i may not know the answer to that. Or try grammarly correcting your question.');
+}
